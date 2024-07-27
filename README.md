@@ -152,7 +152,6 @@
 </div>
 </div>
 <footer>
-<p>© 2024 ShopFinder. All rights reserved.</p>
 </footer>
 </body>
 </html>
