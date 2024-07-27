@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shopfinder">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShopFinder">
+        <activity
+            android:name=".UserSearchShopDetail"
+            android:exported="false" />
+        <activity
+            android:name=".UserSearchShops"
+            android:exported="false" />
+        <activity
+            android:name=".UserShopDetail"
+            android:exported="false" />
+        <activity
+            android:name=".EditShopDetail"
+            android:exported="false" />
+        <activity
+            android:name=".ShopDetail"
+            android:exported="false" />
+        <activity
+            android:name=".VisitingPlace"
+            android:exported="false" />
+        <activity
+            android:name=".AddShop"
+            android:exported="false"
+            android:label="ShopFinder"
+            android:parentActivityName=".ShopKeepers" />
+        <activity
+            android:name=".NewPassword"
+            android:exported="false"
+            android:label="ChangePassword"
+            android:parentActivityName=".ForgetPassword" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false"
+            android:label="ShopFinder"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ForgetPassword"
+            android:exported="false"
+            android:label="ChangePassword"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ShopKeepers"
+            android:exported="false"
+            android:label="Shop"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Users"
+            android:exported="false"
+            android:label="ShopFinder"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
