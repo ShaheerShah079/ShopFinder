@@ -15,7 +15,7 @@
         <div class="content">
             <h2>Project Overview</h2>
             <p>
-            ShopFinder is an Android application developed as part of a database course project. The application is designed to help users efficiently find and manage shops located in various visiting places. Users can search for shops either by their name or by the name of the visiting palace. For example, users can find all shops named <strong>Bata</strong> or all shops located in <strong>Anarkali</strong>.
+            This project is developed as a semester project for the Data Base course. It implements ShopFinder that is an Android application . The application is designed to help users efficiently find and manage shops located in various visiting places. Users can search for shops either by their name or by the name of the visiting palace. For example, users can find all shops named <strong>Bata</strong> or all shops located in <strong>Anarkali</strong>.
         </p>
         <p>
             The application supports two types of accounts:
